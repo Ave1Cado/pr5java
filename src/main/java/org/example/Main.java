@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+abstract class Main {
     public static final int TAPE_LENGTH_PER_PART = 2;
     private static final Scanner scanner = new Scanner(System.in);
     private static int breakCount = 0;
